@@ -1,0 +1,30 @@
+{
+  "name": "codex_zero_01",
+  "condition": "zero_shot",
+  "status": "scored",
+  "exploration_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112
+  ],
+  "heldout_seeds_visible_to_agent": false,
+  "model": "gpt-5.6-sol",
+  "scored_at_utc": "2026-11-17T14:22:49.170970+00:00",
+  "heldout_summary": {
+    "episodes": 24,
+    "success_rate": 0.9583333333333334,
+    "mean_collisions": 4.166666666666667,
+    "mean_steps_success": 191.30434782608697,
+    "mean_score": 54.333333333333336,
+    "mean_runtime_ms": 3.3046624999999996
+  }
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Does exploration survive compilation?"
+message: "If you use this experiment, please cite this repository and the original RAX paper."
+type: software
+authors:
+  - family-names: Jin
+    given-names: Maddy
+repository-code: "https://github.com/WenyiJin2003/rax-exploration-memory-ablation"
+date-released: 2026-11-18
+license: MIT
+

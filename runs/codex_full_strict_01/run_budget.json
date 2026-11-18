@@ -1,0 +1,54 @@
+{
+  "maximum": 12,
+  "used": 12,
+  "episodes": [
+    {
+      "seed": 101,
+      "source": "agent_api.reset"
+    },
+    {
+      "seed": 102,
+      "source": "agent_api.reset"
+    },
+    {
+      "seed": 103,
+      "source": "agent_api.reset"
+    },
+    {
+      "seed": 104,
+      "source": "agent_api.reset"
+    },
+    {
+      "seed": 105,
+      "source": "agent_api.reset"
+    },
+    {
+      "seed": 106,
+      "source": "agent_api.reset"
+    },
+    {
+      "seed": 107,
+      "source": "agent_api.reset"
+    },
+    {
+      "seed": 108,
+      "source": "agent_api.reset"
+    },
+    {
+      "seed": 109,
+      "source": "explore_evaluate"
+    },
+    {
+      "seed": 110,
+      "source": "explore_evaluate"
+    },
+    {
+      "seed": 111,
+      "source": "explore_evaluate"
+    },
+    {
+      "seed": 112,
+      "source": "explore_evaluate"
+    }
+  ]
+}

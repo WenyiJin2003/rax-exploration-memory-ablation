@@ -1,0 +1,4 @@
+run_id,condition,model,exploration_episodes,persistent_memory,heldout_episodes,successful_episodes,success_rate,total_contacts,mean_contacts,mean_steps_success,mean_score
+codex_zero_01,zero_shot,gpt-5.6-sol,0,False,24,23,0.9583333333333334,100,4.166666666666667,191.30434782608697,54.333333333333336
+codex_nomemory_strict_01,no_memory,gpt-5.6-sol,12,False,24,24,1.0,0,0.0,124.16666666666667,81.375
+codex_full_strict_01,full_memory,gpt-5.6-sol,12,True,24,24,1.0,0,0.0,151.83333333333334,77.22500000000001

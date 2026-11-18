@@ -1,0 +1,84 @@
+{
+  "name": "codex_full_strict_01",
+  "condition": "full_memory",
+  "status": "scored",
+  "exploration_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112
+  ],
+  "heldout_seeds_visible_to_agent": false,
+  "model": "gpt-5.6-sol",
+  "scored_at_utc": "2026-11-17T14:28:37.036735+00:00",
+  "heldout_summary": {
+    "episodes": 24,
+    "success_rate": 1.0,
+    "mean_collisions": 0.0,
+    "mean_steps_success": 151.83333333333334,
+    "mean_score": 77.22500000000001,
+    "mean_runtime_ms": 9.9203125
+  },
+  "exploration_budget": {
+    "maximum": 12,
+    "used": 12,
+    "episodes": [
+      {
+        "seed": 101,
+        "source": "agent_api.reset"
+      },
+      {
+        "seed": 102,
+        "source": "agent_api.reset"
+      },
+      {
+        "seed": 103,
+        "source": "agent_api.reset"
+      },
+      {
+        "seed": 104,
+        "source": "agent_api.reset"
+      },
+      {
+        "seed": 105,
+        "source": "agent_api.reset"
+      },
+      {
+        "seed": 106,
+        "source": "agent_api.reset"
+      },
+      {
+        "seed": 107,
+        "source": "agent_api.reset"
+      },
+      {
+        "seed": 108,
+        "source": "agent_api.reset"
+      },
+      {
+        "seed": 109,
+        "source": "explore_evaluate"
+      },
+      {
+        "seed": 110,
+        "source": "explore_evaluate"
+      },
+      {
+        "seed": 111,
+        "source": "explore_evaluate"
+      },
+      {
+        "seed": 112,
+        "source": "explore_evaluate"
+      }
+    ]
+  }
+}
