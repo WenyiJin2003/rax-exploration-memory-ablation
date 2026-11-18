@@ -7,6 +7,8 @@ The experiment asks two questions:
 1. Does online interaction help a coding agent produce a better standalone controller?
 2. Does a persistent memory file add value beyond interaction alone?
 
+**Classroom bundle:** [open all 24 held-out GIFs, the three controllers, and `memory.md`](classroom_artifacts/README.md).
+
 ![Three compiled controllers running on the same held-out map](assets/seed_222_overlay.gif)
 
 ### How to read the comparison
