@@ -17,6 +17,20 @@ The experiment asks two questions:
 
 Gray versus blue isolates the effect of online exploration. Blue versus purple tests whether persistent memory adds value after holding the exploration budget fixed.
 
+### How many runs are in this result?
+
+![How three independent agent runs become 72 controller evaluations](assets/run_accounting.gif)
+
+There is one independently generated controller per condition. Each controller is evaluated on 24 new worlds, so the table contains 72 controller evaluations but only one independent replicate per condition.
+
+To inspect the artifacts directly:
+
+- Zero-shot controller: [`runs/codex_zero_01/controller.py`](runs/codex_zero_01/controller.py)
+- Exploration controller: [`runs/codex_nomemory_strict_01/controller.py`](runs/codex_nomemory_strict_01/controller.py)
+- Exploration + memory controller: [`runs/codex_full_strict_01/controller.py`](runs/codex_full_strict_01/controller.py)
+- Persistent memory: [`runs/codex_full_strict_01/workspace/memory.md`](runs/codex_full_strict_01/workspace/memory.md)
+- Episode-by-episode development log: [`runs/codex_full_strict_01/workspace/run_log.md`](runs/codex_full_strict_01/workspace/run_log.md)
+
 ## Result from the first replicate
 
 The same coding model received the same task and controller interface in all three conditions. The two exploration conditions received 12 episodes. Every final controller then ran alone on the same 24 held-out episodes.
